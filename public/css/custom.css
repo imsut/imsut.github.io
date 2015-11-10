@@ -1,0 +1,7 @@
+img.main-image {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 10px 10px 5px #888888;
+}
