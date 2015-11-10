@@ -7,7 +7,7 @@ relative_permalinks: true
 # Setup
 title:               'Success is a Journey, not a Destination'
 tagline:             ''
-description:         'TODO: define a direction of this blog when the time comes.'
+description:         'TODO: define a direction when the time comes.'
 url:                 http://blog.intransient.info
 baseurl:             ''
 paginate:            5
