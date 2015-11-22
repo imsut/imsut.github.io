@@ -3,9 +3,8 @@ layout: post
 title: clock_gettime in hotspot
 ---
 
-JVM issues clock_gettime syscall quite often as we saw in [the last article](/2015/11/08/jvm-and-clock_gettime).
-Digging into hotspot code to see where/why clock_gettime is called.
-all code snippets are from [hotspot-87ee5ee27509](http://hg.openjdk.java.net/jdk8/jdk8/hotspot/rev/87ee5ee27509).
+JVM issues clock_gettime syscall quite often as we saw in [the last article]({% post_url 2015-11-08-jvm-and-clock_gettime %}).
+Now I dig into [hotspot code](http://hg.openjdk.java.net/jdk8/jdk8/hotspot/rev/87ee5ee27509) to see where/why clock_gettime is called.
 
 `clock_init()` in os_linux.cpp checks if `clock_gettime()` is available, and assign its function pointer to `_clock_gettime` variable.
 
