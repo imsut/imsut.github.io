@@ -94,5 +94,6 @@ vm/runtime/safepoint.cpp
 vm/runtime/thread.cpp
 {% endhighlight %}
 
-The first few files are to support java's `System.nanoTime()` and for GC. So let's ignore them.
-I'll look into share/vm/memory/XXX and share/vm/runtime/{safepoint,thread}.cpp next.
+The first few files are to support java's `System.nanoTime()` and for GC.
+So let's ignore them.
+I'll look into vm/{memory,runtime} next.
