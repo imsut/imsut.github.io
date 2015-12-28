@@ -13,7 +13,7 @@ I found the answer to them in the terminal of someone in office whose prompt is 
 So why don't we put everything we want to see on prompt in (left) PROMPT, and format them in a way that our shell can interpret them, but ignore them?
 
 Here we go.
-![weird prompot](/public/assets/terminal1.png){: .main-image }
+![weird prompt](/public/assets/terminal1.png){: .main-image }
 
 You can see weird prompt on left. For example, "mbp13=/tmp/foo/bar" means I'm on machine "mbp13" and in directory "/tmp/foo/bar".
 
